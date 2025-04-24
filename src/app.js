@@ -10,7 +10,7 @@ const monthOfTheYear = (date = new Date()) => {
     ];
   
     return month[date.getMonth()];
-  };
+};
   
 
 try {
@@ -19,3 +19,4 @@ try {
 
 
 exports.dayOfTheWeek = dayOfTheWeek;
+exports.monthOfTheYear = monthOfTheYear;
